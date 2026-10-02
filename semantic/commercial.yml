@@ -1,0 +1,55 @@
+# Semantic layer: the only vocabulary the agent may use. Metrics are defined once, here,
+# so "net sales" means the same thing in every answer, dashboard and notebook.
+name: commercial
+as_of: "2026-09-30"
+base: {table: marts.fct_prescriptions, alias: f}
+joins:
+  - {table: marts.dim_prescribers, alias: p, join_on: "f.prescriber_id = p.prescriber_id"}
+  - {table: marts.dim_products, alias: d, join_on: "f.product_id = d.product_id"}
+time_column: f.rx_date
+
+metrics:
+  trx:
+    label: Total prescriptions (TRx)
+    expr: "count(*)"
+    format: int
+    synonyms: [trx, total prescriptions, prescriptions, scripts, rx volume, volume]
+  nrx:
+    label: New prescriptions (NRx)
+    expr: "sum(f.is_new_rx)"
+    format: int
+    synonyms: [nrx, new prescriptions, new scripts, new rx, new patients]
+  net_sales:
+    label: Net sales
+    expr: "sum(f.net_sales)"
+    format: usd
+    synonyms: [net sales, sales, revenue]
+  active_prescribers:
+    label: Active prescribers
+    expr: "count(distinct f.prescriber_id)"
+    format: int
+    synonyms: [active prescribers, prescribing hcps, writers, hcps]
+  avg_sales_per_rx:
+    label: Average net sales per prescription
+    expr: "sum(f.net_sales) / nullif(count(*), 0)"
+    format: usd
+    synonyms: [average sales per rx, sales per prescription, average net sales, avg sales per rx]
+  own_brand_share:
+    label: Own-brand share of net sales
+    expr: "sum(case when d.is_own_brand then f.net_sales else 0 end) / nullif(sum(f.net_sales), 0)"
+    format: pct
+    synonyms: [own brand share, our share, market share, brand share]
+
+dimensions:
+  month: {expr: "date_trunc('month', f.rx_date)", time: true, synonyms: [month, monthly, trend, over time]}
+  quarter: {expr: "date_trunc('quarter', f.rx_date)", time: true, synonyms: [quarter, quarterly]}
+  year: {expr: "year(f.rx_date)", time: true, synonyms: [year, yearly, annual, annually]}
+  region: {expr: p.region, synonyms: [region, regions]}
+  territory: {expr: p.territory, synonyms: [territory, territories, city, cities]}
+  specialty: {expr: p.specialty, synonyms: [specialty, specialties]}
+  brand: {expr: d.brand, synonyms: [brand, brands, product, products, drug, drugs]}
+  therapeutic_area: {expr: d.therapeutic_area, synonyms: [therapeutic area, therapeutic areas, therapy area]}
+  payer_type: {expr: f.payer_type, synonyms: [payer type, payer, payers, insurance]}
+
+# Terms people ask about that are deliberately NOT defined. The agent says so instead of guessing.
+undefined_terms: [profit, margin, cost, costs, ebitda, market size, forecast, inventory]

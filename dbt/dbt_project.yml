@@ -1,0 +1,12 @@
+name: commercial
+version: "1.0.0"
+config-version: 2
+profile: commercial
+seeds:
+  commercial:
+    +schema: raw
+models:
+  commercial:
+    marts:
+      +schema: marts
+      +materialized: table

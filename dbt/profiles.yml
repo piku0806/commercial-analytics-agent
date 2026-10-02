@@ -1,0 +1,7 @@
+commercial:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: "{{ env_var('ASKDATA_WAREHOUSE', '../data/commercial.duckdb') }}"
+      threads: 4

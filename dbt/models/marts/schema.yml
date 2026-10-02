@@ -1,0 +1,20 @@
+version: 2
+models:
+  - name: fct_prescriptions
+    columns:
+      - name: rx_id
+        tests: [unique, not_null]
+      - name: prescriber_id
+        tests:
+          - relationships: {arguments: {to: ref('dim_prescribers'), field: prescriber_id}}
+      - name: product_id
+        tests:
+          - relationships: {arguments: {to: ref('dim_products'), field: product_id}}
+  - name: dim_prescribers
+    columns:
+      - name: prescriber_id
+        tests: [unique, not_null]
+  - name: dim_products
+    columns:
+      - name: product_id
+        tests: [unique, not_null]

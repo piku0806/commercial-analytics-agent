@@ -1,0 +1,7 @@
+product_id,brand,therapeutic_area,is_own_brand,list_price
+P1,Xelvora,Cardiovascular,true,412.0
+P2,Tamberix,Cardiovascular,false,365.0
+P3,Quorvane,Diabetes,true,520.0
+P4,Lindoset,Diabetes,false,498.0
+P5,Respiquel,Respiratory,true,289.0
+P6,Aeronil,Respiratory,false,301.0

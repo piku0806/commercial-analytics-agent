@@ -1,0 +1,121 @@
+prescriber_id,prescriber_name,specialty,territory,region
+HCP0001,Prescriber 0001,Pulmonology,Boston,Northeast
+HCP0002,Prescriber 0002,Endocrinology,Boston,Northeast
+HCP0003,Prescriber 0003,Primary Care,Boston,Northeast
+HCP0004,Prescriber 0004,Cardiology,Boston,Northeast
+HCP0005,Prescriber 0005,Cardiology,Boston,Northeast
+HCP0006,Prescriber 0006,Cardiology,Boston,Northeast
+HCP0007,Prescriber 0007,Pulmonology,Boston,Northeast
+HCP0008,Prescriber 0008,Cardiology,Boston,Northeast
+HCP0009,Prescriber 0009,Endocrinology,Boston,Northeast
+HCP0010,Prescriber 0010,Cardiology,Boston,Northeast
+HCP0011,Prescriber 0011,Cardiology,New York,Northeast
+HCP0012,Prescriber 0012,Primary Care,New York,Northeast
+HCP0013,Prescriber 0013,Primary Care,New York,Northeast
+HCP0014,Prescriber 0014,Cardiology,New York,Northeast
+HCP0015,Prescriber 0015,Endocrinology,New York,Northeast
+HCP0016,Prescriber 0016,Cardiology,New York,Northeast
+HCP0017,Prescriber 0017,Primary Care,New York,Northeast
+HCP0018,Prescriber 0018,Cardiology,New York,Northeast
+HCP0019,Prescriber 0019,Cardiology,New York,Northeast
+HCP0020,Prescriber 0020,Endocrinology,New York,Northeast
+HCP0021,Prescriber 0021,Cardiology,Philadelphia,Northeast
+HCP0022,Prescriber 0022,Primary Care,Philadelphia,Northeast
+HCP0023,Prescriber 0023,Cardiology,Philadelphia,Northeast
+HCP0024,Prescriber 0024,Endocrinology,Philadelphia,Northeast
+HCP0025,Prescriber 0025,Cardiology,Philadelphia,Northeast
+HCP0026,Prescriber 0026,Endocrinology,Philadelphia,Northeast
+HCP0027,Prescriber 0027,Pulmonology,Philadelphia,Northeast
+HCP0028,Prescriber 0028,Primary Care,Philadelphia,Northeast
+HCP0029,Prescriber 0029,Endocrinology,Philadelphia,Northeast
+HCP0030,Prescriber 0030,Cardiology,Philadelphia,Northeast
+HCP0031,Prescriber 0031,Pulmonology,Atlanta,Southeast
+HCP0032,Prescriber 0032,Endocrinology,Atlanta,Southeast
+HCP0033,Prescriber 0033,Cardiology,Atlanta,Southeast
+HCP0034,Prescriber 0034,Endocrinology,Atlanta,Southeast
+HCP0035,Prescriber 0035,Pulmonology,Atlanta,Southeast
+HCP0036,Prescriber 0036,Cardiology,Atlanta,Southeast
+HCP0037,Prescriber 0037,Cardiology,Atlanta,Southeast
+HCP0038,Prescriber 0038,Cardiology,Atlanta,Southeast
+HCP0039,Prescriber 0039,Endocrinology,Atlanta,Southeast
+HCP0040,Prescriber 0040,Primary Care,Atlanta,Southeast
+HCP0041,Prescriber 0041,Primary Care,Miami,Southeast
+HCP0042,Prescriber 0042,Pulmonology,Miami,Southeast
+HCP0043,Prescriber 0043,Primary Care,Miami,Southeast
+HCP0044,Prescriber 0044,Primary Care,Miami,Southeast
+HCP0045,Prescriber 0045,Pulmonology,Miami,Southeast
+HCP0046,Prescriber 0046,Pulmonology,Miami,Southeast
+HCP0047,Prescriber 0047,Endocrinology,Miami,Southeast
+HCP0048,Prescriber 0048,Endocrinology,Miami,Southeast
+HCP0049,Prescriber 0049,Endocrinology,Miami,Southeast
+HCP0050,Prescriber 0050,Cardiology,Miami,Southeast
+HCP0051,Prescriber 0051,Pulmonology,Charlotte,Southeast
+HCP0052,Prescriber 0052,Primary Care,Charlotte,Southeast
+HCP0053,Prescriber 0053,Pulmonology,Charlotte,Southeast
+HCP0054,Prescriber 0054,Primary Care,Charlotte,Southeast
+HCP0055,Prescriber 0055,Pulmonology,Charlotte,Southeast
+HCP0056,Prescriber 0056,Cardiology,Charlotte,Southeast
+HCP0057,Prescriber 0057,Cardiology,Charlotte,Southeast
+HCP0058,Prescriber 0058,Primary Care,Charlotte,Southeast
+HCP0059,Prescriber 0059,Endocrinology,Charlotte,Southeast
+HCP0060,Prescriber 0060,Pulmonology,Charlotte,Southeast
+HCP0061,Prescriber 0061,Endocrinology,Chicago,Midwest
+HCP0062,Prescriber 0062,Primary Care,Chicago,Midwest
+HCP0063,Prescriber 0063,Primary Care,Chicago,Midwest
+HCP0064,Prescriber 0064,Cardiology,Chicago,Midwest
+HCP0065,Prescriber 0065,Cardiology,Chicago,Midwest
+HCP0066,Prescriber 0066,Pulmonology,Chicago,Midwest
+HCP0067,Prescriber 0067,Pulmonology,Chicago,Midwest
+HCP0068,Prescriber 0068,Pulmonology,Chicago,Midwest
+HCP0069,Prescriber 0069,Primary Care,Chicago,Midwest
+HCP0070,Prescriber 0070,Primary Care,Chicago,Midwest
+HCP0071,Prescriber 0071,Cardiology,Detroit,Midwest
+HCP0072,Prescriber 0072,Cardiology,Detroit,Midwest
+HCP0073,Prescriber 0073,Pulmonology,Detroit,Midwest
+HCP0074,Prescriber 0074,Primary Care,Detroit,Midwest
+HCP0075,Prescriber 0075,Cardiology,Detroit,Midwest
+HCP0076,Prescriber 0076,Cardiology,Detroit,Midwest
+HCP0077,Prescriber 0077,Pulmonology,Detroit,Midwest
+HCP0078,Prescriber 0078,Primary Care,Detroit,Midwest
+HCP0079,Prescriber 0079,Pulmonology,Detroit,Midwest
+HCP0080,Prescriber 0080,Primary Care,Detroit,Midwest
+HCP0081,Prescriber 0081,Pulmonology,Minneapolis,Midwest
+HCP0082,Prescriber 0082,Cardiology,Minneapolis,Midwest
+HCP0083,Prescriber 0083,Primary Care,Minneapolis,Midwest
+HCP0084,Prescriber 0084,Pulmonology,Minneapolis,Midwest
+HCP0085,Prescriber 0085,Endocrinology,Minneapolis,Midwest
+HCP0086,Prescriber 0086,Cardiology,Minneapolis,Midwest
+HCP0087,Prescriber 0087,Primary Care,Minneapolis,Midwest
+HCP0088,Prescriber 0088,Cardiology,Minneapolis,Midwest
+HCP0089,Prescriber 0089,Endocrinology,Minneapolis,Midwest
+HCP0090,Prescriber 0090,Pulmonology,Minneapolis,Midwest
+HCP0091,Prescriber 0091,Endocrinology,Los Angeles,West
+HCP0092,Prescriber 0092,Endocrinology,Los Angeles,West
+HCP0093,Prescriber 0093,Primary Care,Los Angeles,West
+HCP0094,Prescriber 0094,Primary Care,Los Angeles,West
+HCP0095,Prescriber 0095,Primary Care,Los Angeles,West
+HCP0096,Prescriber 0096,Cardiology,Los Angeles,West
+HCP0097,Prescriber 0097,Endocrinology,Los Angeles,West
+HCP0098,Prescriber 0098,Primary Care,Los Angeles,West
+HCP0099,Prescriber 0099,Primary Care,Los Angeles,West
+HCP0100,Prescriber 0100,Pulmonology,Los Angeles,West
+HCP0101,Prescriber 0101,Endocrinology,Seattle,West
+HCP0102,Prescriber 0102,Primary Care,Seattle,West
+HCP0103,Prescriber 0103,Pulmonology,Seattle,West
+HCP0104,Prescriber 0104,Primary Care,Seattle,West
+HCP0105,Prescriber 0105,Pulmonology,Seattle,West
+HCP0106,Prescriber 0106,Primary Care,Seattle,West
+HCP0107,Prescriber 0107,Endocrinology,Seattle,West
+HCP0108,Prescriber 0108,Endocrinology,Seattle,West
+HCP0109,Prescriber 0109,Cardiology,Seattle,West
+HCP0110,Prescriber 0110,Endocrinology,Seattle,West
+HCP0111,Prescriber 0111,Endocrinology,Denver,West
+HCP0112,Prescriber 0112,Endocrinology,Denver,West
+HCP0113,Prescriber 0113,Endocrinology,Denver,West
+HCP0114,Prescriber 0114,Cardiology,Denver,West
+HCP0115,Prescriber 0115,Primary Care,Denver,West
+HCP0116,Prescriber 0116,Endocrinology,Denver,West
+HCP0117,Prescriber 0117,Pulmonology,Denver,West
+HCP0118,Prescriber 0118,Pulmonology,Denver,West
+HCP0119,Prescriber 0119,Cardiology,Denver,West
+HCP0120,Prescriber 0120,Endocrinology,Denver,West
